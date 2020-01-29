@@ -1,28 +1,30 @@
 $(function () {
+
     var $slide = $(this).find('img'),
-        silideCount = $slides.length,
+        slideCount = $slide.length,
         currentIndex = 0;
 
-    $slides.eq(currentIndex).fadeIn();
+    $slide.eq(currentIndex).fadeIn();
     setInterval(showNextSlide, 7500);
 
     function showNextSlide() {
         var nextIndex = (currentIndex + 1) % slideCount;
-        $silide.eq(currentIndex).fadeOut();
-        $silide.eq(nextIndex).fadeIn();
+        $slide.eq(currentIndex).fadeOut();
+        $slide.eq(nextIndex).fadeIn();
         currentIndex = nextIndex;
     }
+
     $('.slideshow').each(function () {
-        var $slides = $(this).find('img')
-        slideCount = $skides.length,
+        var $slide = $(this).find('img')
+        slideCount = $slide.length,
             currentIndex = 0;
 
-        setInterval(showNextSkide, 7500);
+        setInterval(showNextSlide, 7500);
 
         function showNextSlide() {
             var nextIndex = (currentIndex + 1) % slideCount;
-            $silide.eq(currentIndex).fadeOut();
-            $silide.eq(nextIndex).fadeIn();
+            $slide.eq(currentIndex).fadeOut();
+            $slide.eq(nextIndex).fadeIn();
             currentIndex = nextIndex;
         }
     });

@@ -444,11 +444,13 @@
 .slideshow {
     overflow: hidden;
     position: relative;
-    min-width: 960px;
-    height: 465px;
+    min-width: 1210px;
+    height: 586px;
 }
 
 .slideshow img {
+    -webkit-background-size: cover;
+    background-size: cover;
     display: none;
     position: absolute;
     left: 50%;
