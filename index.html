@@ -3,15 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio</title>
+    <title>Aika Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/slideshow.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/Roding.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/slideshow.js"></script>
+
+
 </head>
+
+<div class="loading">
+    <img src="img/sample.gif" />
+</div>
 
 <body>
     <div class="top">
@@ -29,9 +35,11 @@
         </div>
         <div class="photo_slideshow">
             <div class="slideshow">
-                <img src="./img/sample.jpg" alt="" width="100vw" height="586">
-                <img src="./img/sample12.jpg" alt="" width="100vw" height="586">
-                <img src="./img/sample9.jpg" alt="" width="100vw" height="586">
+                <img src="/img/sample.jpg" alt="" width="1010" height="626">
+                <img src="/img/sample18.jpg" alt="" width="1010" height="626">
+                <img src="/img/ryu-jin2.jpeg" alt="" width="1010" height="626">
+                <img src="/img/ryu-jin3.jpeg" alt="" width="1010" height="626">
+                <img src="/img/sample19.jpg" alt="" width="1010" height="626">
             </div>
         </div>
     </div>
@@ -39,21 +47,10 @@
     <div class="profile" id="Profile">
         <div class="profile_sentense">
             <h1><span class="under">Pr</span>ofile</h1>
-            <p>Aika Matsui</p>
-            <!--
-            <p>2004年<br>
-                7月21日生まれ<br>
-                2017年<br>
-                品川女子学院中等部入学<br>
-                文化祭クラス責任者<br>
-                2018年<br>
-                文化祭クラス責任者<br>
-                2019年<br>
-                バスケットボール部中等部キャプテン<br>
-                クラス委員長<br>
-                文化祭クラス責任者<br>
--->
+            <h2>Aika Matsui</h2>
 
+            <p>2004年7月21日生まれ<br>
+                2017年品川女子学院入学</p>
         </div>
         <div class="profile_photobox">
             <div class="profile_photo"></div>
@@ -61,130 +58,161 @@
     </div>
 
     <div class="studyabroad" id="Study abroad">
-        <div class="studyabroadh1">
+        <div class="studyabroad_sentense">
             <h1><span class="under">St</span>udy abroad</h1>
         </div>
         <div class="item1">
             <div class="item1_photo"></div>
-            <div class="item1_sentense"></div>
+            <div class="item1_sentense">
+                <h1>Rutherford College</h1>
+                <!--
+                <ul>
+                    <li>所在地</li>
+                    <li>設立</li>
+                    <li>受け入れる学年</li>
+                    <li>学校形態</li>
+                </ul>
+-->
+            </div>
         </div>
         <div class="item2">
             <div class="item2_sentense">
                 <h1>Wellington High School</h1>
+                <!--                <p>所在地、設立、受け入れる学年、学校形態</p>-->
                 <!--
                 <ul>
                     <li>所在地</li>
-                    <li>受け入れ学年</li>
+                    <li>設立</li>
+                    <li>受け入れる学年</li>
                     <li>学校形態</li>
-                    <li>留学生数</li>
                 </ul>
 -->
             </div>
             <div class="item2_photo"></div>
         </div>
-        <div class="worldmap"></div>
+        <div class="worldmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25262047.486749507!2d157.31722957400797!3d-39.384624941411914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d2c200e17779687%3A0xb1d618e2756a4733!2z44OL44Ol44O844K444O844Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1580542581406!5m2!1sja!2sjp" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
     </div>
 
     <div class="photo_gallery" id="Photogallery">
-        <div class="h1">
+        <div class="photogallery_sentense">
             <h1><span class="under">Ph</span>otogallery</h1>
         </div>
-        <div class="event1_6">
-            <div class="event1"></div>
-            <div class="event6"></div>
+        <div class="event1_4">
+            <div class="event1">
+                <div class="caption1">
+                    <h1>2020.1.1</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
+            <div class="event4">
+                <div class="caption4">
+                    <h1>2020.1.4</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
         </div>
-        <div class="event2_3">
-            <div class="event2"></div>
-            <div class="event3"></div>
+        <div class="event2_5">
+            <div class="event2">
+                <div class="caption2">
+                    <h1>2020.1.2</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
+            <div class="event5">
+                <div class="caption5">
+                    <h1>2020.1.5</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
         </div>
-        <div class="event4_5">
-            <div class="event4"></div>
-            <div class="event5"></div>
+        <div class="event3_6">
+            <div class="event3">
+                <div class="caption3">
+                    <h1>2020.1.3</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
+            <div class="event6">
+                <div class="caption6">
+                    <h1>2020.1.6</h1>
+                    <p>NEWZEALAND</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="activities" id="Activities">
-        <div class="h1">
+        <div class="activities_sentense">
             <h1><span class="under">Ac</span>tivities</h1>
         </div>
-        <div class="sample_1">
-            <div class="activities_1">
-                <div class="activities_photo1"></div>
-                <div class="activities_sentense1">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
-            </div>
-            <div class="activities_2">
-                <div class="activities_photo2"></div>
-                <div class="activities_sentense2">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
-            </div>
-        </div>
-        <div class="sample_2">
-            <div class="activities_3">
-                <div class="activities_photo3"></div>
-                <div class="activities_sentense3">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
-            </div>
-            <div class="activities_4">
-                <div class="activities_photo4"></div>
-                <div class="activities_sentense4">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
-            </div>
-        </div>
-        <div class="sample3">
-            <div class="activities_5">
-                <div class="activities_photo5"></div>
-                <div class="activities_sentense5">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
-            </div>
-            <div class="activities_6">
-                <div class="activities_photo6"></div>
-                <div class="activities_sentense6">
-                    <h1>2020.1.1　初詣</h1>
-                </div>
+
+        <div class="activities_1">
+            <div class="activities_photo1"></div>
+            <div class="activities_sentense1">
+                <h1>2020.1.1</h1>
             </div>
         </div>
 
+
+
+        <div class="activities_2">
+            <div class="activities_photo2"></div>
+            <div class="activities_sentense2">
+                <h1>2020.1.1</h1>
+            </div>
+        </div>
+
+
+
+        <div class="activities_3">
+            <div class="activities_photo3"></div>
+            <div class="activities_sentense3">
+                <h1>2020.1.1</h1>
+            </div>
+        </div>
+
+
     </div>
-    <div class="blog1" id="Blog">
-        <div class="h1">
+    <div class="blog_viewmore">
+        <a class="underline" href="/index.activities.html" target="_blank">View more</a>
+    </div>
+    <div class="blog" id="Blog">
+        <div class="blog_bigsentense">
             <h1><span class="under">Bl</span>og</h1>
         </div>
-        <div class="contents">
-            <div class="contents1">
-                <div class="contents1_1"></div>
-                <div class="contents1_2">
-                </div>
-            </div>
-
-            <div class="contents2">
-                <div class="contents2_1"></div>
-                <div class="contents2_2">
-                </div>
-            </div>
+        <div class="blog_photo"></div>
+        <div class="blog_sentense">
+            <h1>2020.1.1</h1>
+            <p>ブログ始めます！</p>
         </div>
-
     </div>
-    <div class="blog2">
-        <div class="contents3">
-            <div class="contents3_1">
-                <ul>
-                    <a href="#Profile" data-scroll>Profile</a><br>
-                    <a href="#Study abroad" data-scroll>Study abroad</a><br>
-                    <a href="#Photogallery" data-scroll>Photogallery</a><br>
-                    <a href="#Activities" data-scroll>Activities</a><br>
-                    <a href="#Blog" data-scroll>Blog</a>
+    <div class="blog_viewmore">
+        <a class="underline" href="/index.blog.html" target="_blank">View more</a>
+    </div>
+    <div class="contact">
+        <div class="contact1">
+            <div class="contactaikon"></div>
+            <ul>
+                <a href="#Profile" data-scroll>Profile</a><br>
+                <a href="#Study abroad" data-scroll>Study abroad</a><br>
+                <a href="#Photogallery" data-scroll>Photogallery</a><br>
+                <a href="#Activities" data-scroll> Activities</a><br>
+                <a href="#Blog" data-scroll>Blog</a><br>
+            </ul>
 
-                </ul>
-            </div>
         </div>
-        <div class="contents4">
-            <h1><span class="under">Co</span>ntents</h1>
+        <div class="SNS">
+            <h1><span class="under">Co</span>ntact</h1>
+            <div class="link">
+                <a href="https://www.facebook.com/121a122" target="_blank">
+                    <img src="img/FACEBOOK.png" alt=""></a>
+                <a href="https://www.instagram.com/121a122" target="_blank">
+                    <img src="img/Instagram.png" alt=""></a>
+                <a href="https://www.Twitter.com/121a122" target="_blank">
+                    <img src="img/Twitter.png" alt=""></a>
+            </div>
         </div>
     </div>
 
