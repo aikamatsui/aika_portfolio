@@ -33,7 +33,7 @@
 
 .profile {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
     background-color: #f7f7f7;
     display: flex;
     color: #555;
@@ -61,7 +61,7 @@
     padding: 8px;
     border-radius: 4px;
     left: 70px;
-    top: 1680px;
+    top: 1550px;
     display: flex;
     color: #555;
 }
@@ -75,7 +75,6 @@
 }
 
 .item1_sentense {
-    padding-left: 20px;
     font-family: 'Lora', serif;
     background-color: #f7f7f7;
     width: 50%;
@@ -83,9 +82,27 @@
 }
 
 .item1_sentense h1 {
+    padding-left: 20px;
     font-family: 'Lora', serif;
     color: #555;
     font-size: 15px;
+}
+
+.item1_sentense ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.item1_sentense ul li {
+    margin-top: 15px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.item1_sentense ul p {
+    font-size: 11px;
 }
 
 .item2 {
@@ -97,12 +114,13 @@
     position: absolute;
     padding: 8px;
     border-radius: 4px;
-    left: 950px;
-    top: 1990px;
+    left: 910px;
+    top: 1850px;
     display: flex;
 }
 
 .item2_sentense {
+    font-family: 'Lora', serif;
     width: 50%;
     height: 30vh;
     background-color: #f7f7f7;
@@ -113,6 +131,23 @@
     font-family: 'Lora', serif;
     font-size: 15px;
     color: #555;
+}
+
+.item2_sentense ul {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.item2_sentense ul li {
+    margin-top: 15px;
+    font-size: 13px;
+    list-style: none;
+}
+
+.item2_sentense ul p {
+    font-size: 11px;
 }
 
 .item2_photo {
@@ -128,8 +163,8 @@
     height: 26%;
     color: #000;
     position: absolute;
-    left: 1030px;
-    top: 1600px;
+    left: 990px;
+    top: 1450px;
 }
 
 .photo_gallery {
@@ -198,12 +233,13 @@
 }
 
 .event1 {
-    background-image: url(img/sample7.jpg);
+    background-image: url(img/NewYear.JPG);
+    /*    background-image: url(img/sample7.jpg);*/
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
     height: 51vh;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .event1 .caption1 {
@@ -238,12 +274,12 @@
 }
 
 .event2 {
-    background-image: url(img/sample9.jpg);
+    background-image: url(img/bunkasai2.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
     height: 35vh;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 20px;
 }
 
@@ -263,7 +299,7 @@
 }
 
 .caption2 h1 {
-    font-family: 'Noto Serif JP', serif;
+    font-family: 'Lora', serif;
     color: #f7f7f7;
     font-size: 20px;
     padding-top: 20px;
@@ -279,12 +315,12 @@
 }
 
 .event3 {
-    background-image: url(img/sample9.jpg);
+    background-image: url(img/gasshousai1.JPG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
     height: 35vh;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 20px;
 }
 
@@ -322,7 +358,7 @@
 .event2_3 {}
 
 .event4 {
-    background-image: url(img/sample12.jpg);
+    background-image: url(img/camp1.JPG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -362,7 +398,7 @@
 }
 
 .event5 {
-    background-image: url(img/sample8.jpg);
+    background-image: url(img/natucamp2.JPG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -403,7 +439,7 @@
 }
 
 .event6 {
-    background-image: url(img/sample8.jpg);
+    background-image: url(img/kurikyan4.JPG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -482,7 +518,7 @@
 }
 
 .activities_photo1 {
-    background-image: url(img/sample13.jpg);
+    background-image: url(img/edcation1.JPEG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -502,7 +538,7 @@
 }
 
 .activities_photo2 {
-    background-image: url(img/ryu-jin1.jpeg);
+    background-image: url(img/jugyoukengaku.PNG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -522,7 +558,7 @@
 }
 
 .activities_photo3 {
-    background-image: url(img/sample10.jpg);
+    background-image: url(img/BO-SAI.JPG);
     -webkit-background-size: cover;
     background-size: cover;
     width: 23vw;
@@ -634,17 +670,37 @@
 .profile_sentense h2 {
     font-family: 'Lora', serif;
     font-size: 35px;
-    padding-left: 100px;
+    padding-left: 140px;
     padding-top: 70px;
+    letter-spacing: 5px;
     color: #555;
+}
+
+.profile_sentense h3 {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    padding-left: 140px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.profile_sentense h4 {
+    border-bottom: 1px solid #555;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: #555;
+    letter-spacing: 2px;
 }
 
 .profile_sentense p {
     font-family: 'Lora', serif;
-    font-size: 17px;
-    padding-left: 100px;
-    padding-top: 70px;
-    line-height: 45px;
+    font-size: 15px;
+    padding-left: 200px;
+    margin-top: 40px;
+    line-height: 35px;
     color: #555;
 }
 
@@ -657,18 +713,22 @@
 
 .profile_photobox {
     /*    flex: 0 1 50%;*/
-    width: 50%;
+    width: 50vw;
+    height: 50vh;
     background-color: #f7f7f7;
     overflow: hidden;
     display: flex;
+    margin-top: 150px;
+    margin-left: 90px;
     justify-content: center;
     align-items: center;
 }
 
 .profile_photo {
-    width: 75%;
-    height: 80%;
-    background-image: url(img/sample3.jpg);
+    width: 26vw;
+    height: 48vh;
+    margin-left: 10px;
+    background-image: url(img/aika_profile.jpg);
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -703,7 +763,7 @@
     margin-top: 120px;
     margin-left: 110px;
     /*    background-color: #f7f7f7;*/
-    background-image: url(img/sample10.jpg);
+    background-image: url(img/blogphoto.PNG);
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -771,7 +831,7 @@
     -webkit-background-size: cover;
     background-size: cover;
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 80px;
     width: 20vw;
     height: 23vh;
     display: inline-block;
