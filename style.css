@@ -52,7 +52,7 @@
 
 
 .item1 {
-    box-shadow: 3px 3px 20px rgba(18, 42, 136, 0.29);
+    box-shadow: 7px 3px 20px rgba(18, 42, 136, 0.29);
     width: 25%;
     height: 30%;
     /* background-color: #ffffff; */
@@ -106,7 +106,7 @@
 }
 
 .item2 {
-    box-shadow: 3px 3px 20px rgba(189, 42, 0, 0.29);
+    box-shadow: 7px 3px 20px rgba(189, 42, 0, 0.29);
     width: 25%;
     height: 30%;
     /* background-color: #ffffff; */
@@ -135,7 +135,7 @@
 
 .item2_sentense ul {
     margin-top: 10px;
-    padding-left: 10px;
+    /*    padding-left: 10px;*/
     font-size: 13px;
     list-style: none;
 }
